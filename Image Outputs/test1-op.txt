@@ -1,0 +1,55 @@
+To load the image 
+> INPUT_IMAGE_PATH *space* filename
+To Find region
+> FIND_REGION *space* seedx *space* seedy *space* tolerence
+To find perimeter
+> FIND_PERIMETER
+To make perimeter smooth
+> FIND_SMOOTH_PERIMETER
+To show input image
+> DISPLAY_IMAGE
+To show output image
+> DISPLAY_PIXELS region *OR* perimeter
+To save output
+> SAVE_PIXELS region *OR* perimeter *space* filename
+To save program output
+> SAVE_PROGRAM_OUTPUT filename
+To exit application
+> EXIT
+To get list of availabe commands
+> HELP
+
+
+Please Enter Valid Command
+To load the image 
+> INPUT_IMAGE_PATH *space* filename
+To Find region
+> FIND_REGION *space* seedx *space* seedy *space* tolerence
+To find perimeter
+> FIND_PERIMETER
+To make perimeter smooth
+> FIND_SMOOTH_PERIMETER
+To show input image
+> DISPLAY_IMAGE
+To show output image
+> DISPLAY_PIXELS region *OR* perimeter
+To save output
+> SAVE_PIXELS region *OR* perimeter *space* filename
+To save program output
+> SAVE_PROGRAM_OUTPUT filename
+To exit application
+> EXIT
+To get list of availabe commands
+> HELP
+
+FIND_PERIMETER
+Please load input image first
+FIND_REGION 100 100 5
+Please load input image first
+INPUT_IMAGE_PATH C:\Aeolus\TestImages\Test1.png
+Image loaded sucessfully.
+SAVE_PIXELS region C:\Aeolus\TestImages\Test1-reg.png
+Please calculate region first
+DISPLAY_PIXELS region
+Please calculate region first
+SAVE_PROGRAM_OUTPUT C:\Aeolus\TestImages\op.txt
